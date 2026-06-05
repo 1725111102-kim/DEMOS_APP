@@ -16,11 +16,11 @@ class Index:
     
 class Clientes:
     def GET(self):
-        return render.Clientes()
+        return render.clientes()
     
 class Productos:
     def GET(self):
-        return render.Productos()
+        return render.productos()
 
 class usuarios:
     def GET(self):
