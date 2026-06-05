@@ -7,6 +7,7 @@ urls = (
     '/usuarios', 'usuarios'
 )
 app = web.application(urls, globals())
+render = web.template.render('templates')
 
 
 class Index:
