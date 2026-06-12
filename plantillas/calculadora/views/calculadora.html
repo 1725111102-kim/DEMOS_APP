@@ -1,0 +1,36 @@
+$def with(numero_1, numero_2, resultado)
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Calculadora</title>
+</head>
+<body>
+
+    <h1>Calculadora</h1>
+
+    <form method="POST">
+
+        <label>Número 1</label><br>
+        <input type="number" name="numero_1" value=$numero_1 ><br><br>
+
+        <label>Número 2</label><br>
+        <input type="number" name="numero_2" value=$numero_2 ><br><br>
+
+        <label>Resultado</label><br>
+        <input type="number" name="resultado" value=$resultado ><br><br>
+
+        <button name="operacion" value="sumar">Sumar</button>
+        <button name="operacion" value="restar">Restar</button>
+        <button name="operacion" value="multiplicar">Multiplicar</button>
+        <button name="operacion" value="dividir">Dividir</button>
+        <button name="operacion" value="limpiar">Limpiar</button>
+
+    </form>
+
+    <br>
+    <a href="/">Index</a>
+
+</body>
+</html>
